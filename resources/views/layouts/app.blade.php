@@ -19,6 +19,7 @@
     @endif
     <div class="row">
         <div class="col-md-8 col-log-8">
+            @include('inc.messages')
             @yield('content', 'Default Content')
         </div>
         <div class="col-md-4 col-log-4">
