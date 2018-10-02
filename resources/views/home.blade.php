@@ -10,4 +10,5 @@
     <!-- if we didn't call the parent we wouldn't get the defaults from app.blade.php -->
     @parent
     <p>This is appended to the sidebar & only shows on the homepage</p>
+    <p>Use "npm run watch" to compile Sass</p>
 @endsection
